@@ -1,5 +1,5 @@
 <?php
-include("./control/validate.php");
+include("validate.php");
    $errors= [];
    if(isset($_POST['signup_btn'])){
     $errors = validateUser($_POST, ['signup_btn']);
